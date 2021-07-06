@@ -1869,7 +1869,7 @@ body.ie ._ibg img {
           transform: scale(0);
 }
 
-.form__item .checkbox ._error .checkbox__label::before {
+.checkbox._error .checkbox__label::before {
   border: 1px solid #e36464;
 }
 
