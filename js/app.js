@@ -1050,8 +1050,7 @@ window.onload = function () {
 
 	const addClass = function () {
 		kontaktaiFormButton.classList.add(('btn_white'));
-	}
-	addClass();
+	}();
 }
 
 
