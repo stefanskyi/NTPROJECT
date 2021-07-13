@@ -1497,9 +1497,9 @@ body.ie ._ibg img {
 }
 
 .pasiūlymai__bg_blue {
-  background-image: -webkit-gradient(linear, right top, left top, from(#f7faff), to(#dbe9ff));
-  background-image: -o-linear-gradient(right, #f7faff 0%, #dbe9ff 100%);
-  background-image: linear-gradient(270deg, #f7faff 0%, #dbe9ff 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#f7faff), to(#dbe9ff));
+  background: -o-linear-gradient(right, #f7faff 0%, #dbe9ff 100%);
+  background: linear-gradient(270deg, #f7faff 0%, #dbe9ff 100%);
 }
 
 .form__menu {
