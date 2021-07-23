@@ -1045,29 +1045,29 @@ window.onload = function () {
 	}
 }
 
-const kontaktaiFormButton = document.querySelector('.kontaktai__form__button');
-const formItemValue = document.querySelectorAll('.form__input, input[data-value]');
-const kontaktaiForm = document.querySelector('.kontaktai__form')
+// const kontaktaiFormButton = document.querySelector('.kontaktai__form__button');
+// const formItemValue = document.querySelectorAll('.form__input, input[data-value]');
+// const kontaktaiForm = document.querySelector('.kontaktai__form')
 
-const addBtnWhiteClass = function () {
-	kontaktaiFormButton.classList.add(('btn_white'));
-}();
-const removeBtnWhiteClass = function () {
-	if (formItemValue.length > 0 && kontaktaiFormButton.classList.contains('btn_white')) {
-		for (let i = 0; i < formItemValue.length; i++) {
-			console.log(formItemValue[i]);
-			console.log(formItemValue[i].value);
+// const addBtnWhiteClass = function () {
+// 	kontaktaiFormButton.classList.add(('btn_white'));
+// }();
+// const removeBtnWhiteClass = function () {
+// 	if (formItemValue.length > 0 && kontaktaiFormButton.classList.contains('btn_white')) {
+// 		for (let i = 0; i < formItemValue.length; i++) {
+// 			console.log(formItemValue[i]);
+// 			console.log(formItemValue[i].value);
 
-			if (!formItemValue[i].classList.contains('_error') && formItemValue[i].value !== '' && formItemValue[i].value !== 'on') {
-				kontaktaiFormButton.classList.remove(('btn_white'));
-			};
-		}
-	}
-};
+// 			if (!formItemValue[i].classList.contains('_error') && formItemValue[i].value !== '' && formItemValue[i].value !== 'on') {
+// 				kontaktaiFormButton.classList.remove(('btn_white'));
+// 			};
+// 		}
+// 	}
+// };
 
-kontaktaiForm.addEventListener('mouseover', function (event) {
-	removeBtnWhiteClass();
-})
+// kontaktaiForm.addEventListener('mouseover', function (event) {
+// 	removeBtnWhiteClass();
+// })
 
 
 // let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
